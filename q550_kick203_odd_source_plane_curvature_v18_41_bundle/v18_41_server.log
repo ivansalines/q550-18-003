@@ -1,0 +1,52 @@
+test_affine_raw_large_angle (test_plane_curvature_v18_41.MathTests.test_affine_raw_large_angle) ... ok
+test_coordinate_rotation_invariant_if_realigned (test_plane_curvature_v18_41.MathTests.test_coordinate_rotation_invariant_if_realigned) ... ok
+test_great_circle_endpoint (test_plane_curvature_v18_41.MathTests.test_great_circle_endpoint) ... ok
+test_great_circle_geo_curvature (test_plane_curvature_v18_41.MathTests.test_great_circle_geo_curvature) ... ok
+test_great_circle_path (test_plane_curvature_v18_41.MathTests.test_great_circle_path) ... ok
+test_great_circle_planarity (test_plane_curvature_v18_41.MathTests.test_great_circle_planarity) ... ok
+test_non_affine_with_planarity (test_plane_curvature_v18_41.MathTests.test_non_affine_with_planarity) ... ok
+test_nonplanar_even_if_endpoint_matches (test_plane_curvature_v18_41.MathTests.test_nonplanar_even_if_endpoint_matches) ... ok
+test_nonuniform_grid_rejected (test_plane_curvature_v18_41.MathTests.test_nonuniform_grid_rejected) ... ok
+test_path_can_exceed_endpoint (test_plane_curvature_v18_41.MathTests.test_path_can_exceed_endpoint) ... ok
+test_summary_has_nested_geometry (test_plane_curvature_v18_41.MathTests.test_summary_has_nested_geometry) ... ok
+test_synthetic_antipodal_plane_rejected (test_plane_curvature_v18_41.MathTests.test_synthetic_antipodal_plane_rejected) ... ok
+test_synthetic_audit_end_to_end (test_plane_curvature_v18_41.MathTests.test_synthetic_audit_end_to_end) ... ok
+test_synthetic_zero_odd_source_rejected (test_plane_curvature_v18_41.MathTests.test_synthetic_zero_odd_source_rejected) ... ok
+test_true_out_of_plane_perturbation (test_plane_curvature_v18_41.MathTests.test_true_out_of_plane_perturbation) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.130s
+
+OK
+{
+  "version": "v18.41",
+  "status": "PREFLIGHT_ONLY_V18_40_PARENT_AUTHENTICATED",
+  "parent_sha256": "6e36ccfe8a5036631523dcf5d4ac22d97f61e39d30bb93fcc1b89a4392e37830",
+  "verified_members": 121,
+  "parent_original_integrations": 61,
+  "parent_temporal_samples": 168,
+  "parent_families": 12,
+  "parent_resolution_rows": 48,
+  "checkpoint_tiers": [
+    "standard",
+    "tight"
+  ],
+  "no_new_original_integrations": true
+}
+V18_39 phasecov_d2_lam-1.00_mod+0.00 3.5 0 observed_exits 5 right_censored 0 horizon_min 1.118e-06 common_t 5.588e-07
+V18_39 phasecov_d2_lam-1.00_mod+0.00 3.5 1 observed_exits 4 right_censored 1 horizon_min 9.738e-07 common_t 4.869e-07
+V18_39 phasecov_d2_lam-1.00_mod+0.00 4.0 0 observed_exits 5 right_censored 0 horizon_min 2.455e-06 common_t 1.228e-06
+V18_39 phasecov_d2_lam-1.00_mod+0.00 4.0 1 observed_exits 4 right_censored 1 horizon_min 8.879e-07 common_t 4.44e-07
+V18_39 phasecov_d2_lam-1.00_mod+0.00 4.5 0 observed_exits 5 right_censored 0 horizon_min 8.943e-07 common_t 4.472e-07
+V18_39 phasecov_d2_lam-1.00_mod+0.00 4.5 1 observed_exits 5 right_censored 0 horizon_min 9.136e-07 common_t 4.568e-07
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 3.5 0 observed_exits 5 right_censored 0 horizon_min 1.868e-06 common_t 9.339e-07
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 3.5 1 observed_exits 5 right_censored 0 horizon_min 1.004e-06 common_t 5.021e-07
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 4.0 0 observed_exits 5 right_censored 0 horizon_min 2.19e-06 common_t 1.095e-06
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 4.0 1 observed_exits 4 right_censored 1 horizon_min 9.027e-07 common_t 4.513e-07
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 4.5 0 observed_exits 5 right_censored 0 horizon_min 1.065e-06 common_t 5.326e-07
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 4.5 1 observed_exits 4 right_censored 1 horizon_min 1.078e-06 common_t 5.391e-07
+ORIGINAL_V18_41_COMPLETED 61 1548 48
+V18_40_ORIGINAL_PLOTS_COMPLETE
+V18_41_PLOTS_CREATED 12
+V18_41_MANIFEST 137
+SEND_BACK /root/elab1/hysteresis/q550_kick203_odd_source_plane_curvature_v18_41_sendback.zip

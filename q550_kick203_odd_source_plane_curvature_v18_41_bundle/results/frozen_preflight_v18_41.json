@@ -1,0 +1,15 @@
+{
+  "version": "v18.41",
+  "status": "PREFLIGHT_ONLY_V18_40_PARENT_AUTHENTICATED",
+  "parent_sha256": "6e36ccfe8a5036631523dcf5d4ac22d97f61e39d30bb93fcc1b89a4392e37830",
+  "verified_members": 121,
+  "parent_original_integrations": 61,
+  "parent_temporal_samples": 168,
+  "parent_families": 12,
+  "parent_resolution_rows": 48,
+  "checkpoint_tiers": [
+    "standard",
+    "tight"
+  ],
+  "no_new_original_integrations": true
+}

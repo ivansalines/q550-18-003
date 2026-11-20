@@ -1,0 +1,33 @@
+{
+  "version": "v18.41",
+  "status": "ORIGINAL_Q550_ODD_SOURCE_RESPONSE_PLANE_CURVATURE_COMPLETED",
+  "original_integrations": 61,
+  "original_cases": 12,
+  "original_samples": 1548,
+  "resolution_rows": 48,
+  "source_kappa0_unchanged": true,
+  "original_ode_sha256_verified": true,
+  "parent_original_v18_40_sha256": "6e36ccfe8a5036631523dcf5d4ac22d97f61e39d30bb93fcc1b89a4392e37830",
+  "parent_original_v18_40_verified_members": 121,
+  "v18_39_parent_sha256": "8aa8da925abf692cb4d1b7e630872557c13970d75bea733b674ba46055b620f1",
+  "max_parent_endpoint_angle_replay_deg": 0.0,
+  "max_parent_angular_travel32_replay_deg": 2.1316282072803006e-14,
+  "max_time_varying_chart_closure_error": 8.82478258813791e-19,
+  "max_v18_38_scalar_replay_discrepancy": 0.0,
+  "max_v18_39_vector_replay_discrepancy": 0.0,
+  "max_v18_39_rotation_replay_discrepancy": 0.0,
+  "no_material_metric_certified": true,
+  "no_physical_constraint_certified": true,
+  "method": {
+    "declared_metric": "normalized Euclidean material10",
+    "time_fractions": "129 uniform including endpoints, within common diagnostic support",
+    "endpoint_plane": "span of normalized odd-source initial and final 9D vectors ONLY",
+    "plane_deviation": "orthogonal 9D component relative to endpoint plane",
+    "affine_raw_chord": "linear interpolation of raw unnormalized odd-source 9D endpoint vectors",
+    "spherical_geodesic_curvature": "central finite difference, only interior nodes, normalized direction on S8",
+    "raw_euclidean_curvature": "central finite difference; scaled time s=t/t_common",
+    "nested_grids": "16,32,64,128 intervals; report numerical convergence, not interval bounds",
+    "coordinate_change": "SO9 time-dependent gauge undone before plane metrics",
+    "caution": "Angular geodesicity and plane membership do not imply intrinsic material torsion or surface invariance"
+  }
+}
