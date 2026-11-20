@@ -1,0 +1,40 @@
+{
+  "version": "v18.44",
+  "status": "ORIGINAL_Q550_DIRECTIONAL_HESSIAN_TRANSPORTED_SOURCE_JET_COMPLETED",
+  "original_integrations": 49,
+  "original_cases": 12,
+  "hessian_comparison_rows": 324,
+  "transported_jet_rows": 36,
+  "solver_rows": 48,
+  "parent_v18_43_sha256": "8226950a31914005d6009ac9d43c65809131f520f4ff742d24ebd4054615405b",
+  "parent_v18_43_verified_members": 147,
+  "original_ode_sha256_verified": true,
+  "source_kappa0_unchanged": true,
+  "max_parent_source_replay_abs": 5.421010862427522e-20,
+  "max_within_parent_support_radius_fraction": 0.5412570424522254,
+  "no_symbolic_hessian_claimed": true,
+  "no_certified_second_jet": true,
+  "no_certified_curvature": true,
+  "no_material_metric_certified": true,
+  "no_physical_constraint_certified": true,
+  "method": {
+    "hessian": "Fourth-order independent mixed ORIGINAL RHS field differences vs directional pinned analytic Jacobian derivative",
+    "hessian_steps": [
+      0.006,
+      0.018,
+      0.036
+    ],
+    "jacobian_direction_steps": [
+      0.0005,
+      0.002,
+      0.008
+    ],
+    "source_jet": "Exact polynomial/phase chain rule with substituted numerical directional Hessian contraction",
+    "moving_chart": "Analytic Frechet differentiation of minimal rotations and tangent projector; original v18.43 finite chart jet cross-checked",
+    "kappa0": "Frozen inherited 55/6*(10/550); alternative geometric hypothesis NOT introduced",
+    "material_metric": "Declared normalized Euclidean diagnostic convention only",
+    "phase": "Unwrapped original clock phase recorded; phase return is not full material return",
+    "warning": "Agreement of two numerical Hessian routes is not a symbolic or physical Hessian certificate"
+  },
+  "preflight_only": false
+}

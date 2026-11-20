@@ -1,0 +1,13 @@
+{
+  "version": "v18.44",
+  "status": "PREFLIGHT_ONLY_PARENT_AUTHENTICATED",
+  "parent_sha256": "8226950a31914005d6009ac9d43c65809131f520f4ff742d24ebd4054615405b",
+  "verified_original_parent_members": 147,
+  "parent_first_jet_rows": 60,
+  "parent_second_window_rows": 144,
+  "historical_checkpoint_tiers": [
+    "standard",
+    "tight"
+  ],
+  "no_new_original_integrations": true
+}

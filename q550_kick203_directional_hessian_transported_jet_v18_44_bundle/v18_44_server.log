@@ -1,0 +1,47 @@
+test_antipodal_rejected (test_dual_hessian_chart_v18_44.DualHessianTests.test_antipodal_rejected) ... ok
+test_chart_decomposition_identity (test_dual_hessian_chart_v18_44.DualHessianTests.test_chart_decomposition_identity) ... ok
+test_chart_equal_reference (test_dual_hessian_chart_v18_44.DualHessianTests.test_chart_equal_reference) ... ok
+test_independent_jac_vs_rhs (test_dual_hessian_chart_v18_44.DualHessianTests.test_independent_jac_vs_rhs) ... ok
+test_jac_direction_normalized (test_dual_hessian_chart_v18_44.DualHessianTests.test_jac_direction_normalized) ... ok
+test_mixed_rhs_hessian_large_step (test_dual_hessian_chart_v18_44.DualHessianTests.test_mixed_rhs_hessian_large_step) ... ok
+test_mixed_rhs_hessian_small_step (test_dual_hessian_chart_v18_44.DualHessianTests.test_mixed_rhs_hessian_small_step) ... ok
+test_negative_h_rejected (test_dual_hessian_chart_v18_44.DualHessianTests.test_negative_h_rejected) ... ok
+test_pinned_analytic_jac_hessian (test_dual_hessian_chart_v18_44.DualHessianTests.test_pinned_analytic_jac_hessian) ... ok
+test_source_jet_against_independent_time_shift (test_dual_hessian_chart_v18_44.DualHessianTests.test_source_jet_against_independent_time_shift) ... ok
+test_source_jet_exact_quadratic_chain (test_dual_hessian_chart_v18_44.DualHessianTests.test_source_jet_exact_quadratic_chain) ... ok
+test_zero_h_rejected (test_dual_hessian_chart_v18_44.DualHessianTests.test_zero_h_rejected) ... ok
+test_zero_normal_source_tangency (test_dual_hessian_chart_v18_44.DualHessianTests.test_zero_normal_source_tangency) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.270s
+
+OK
+{
+  "version": "v18.44",
+  "status": "PREFLIGHT_ONLY_PARENT_AUTHENTICATED",
+  "parent_sha256": "8226950a31914005d6009ac9d43c65809131f520f4ff742d24ebd4054615405b",
+  "verified_original_parent_members": 147,
+  "parent_first_jet_rows": 60,
+  "parent_second_window_rows": 144,
+  "historical_checkpoint_tiers": [
+    "standard",
+    "tight"
+  ],
+  "no_new_original_integrations": true
+}
+V18_44 phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=0 hessian median 1.753e-02 jet 1.035e-05
+V18_44 phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=1 hessian median 5.213e-02 jet 6.621e-06
+V18_44 phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=0 hessian median 2.044e-02 jet 1.505e-06
+V18_44 phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=1 hessian median 1.494e-02 jet 7.031e-06
+V18_44 phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=0 hessian median 2.666e-02 jet 2.284e-06
+V18_44 phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=1 hessian median 2.770e-02 jet 2.310e-06
+V18_44 phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=0 hessian median 1.339e-01 jet 4.004e-06
+V18_44 phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=1 hessian median 2.955e-02 jet 1.333e-06
+V18_44 phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=0 hessian median 1.904e-02 jet 1.302e-06
+V18_44 phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=1 hessian median 9.097e-02 jet 9.011e-07
+V18_44 phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=0 hessian median 1.037e-02 jet 9.633e-05
+V18_44 phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=1 hessian median 7.817e-02 jet 5.315e-06
+ORIGINAL_V18_44_COMPLETED 49 324 36
+V18_44_ORIGINAL_PLOTS_3
+V18_44_MANIFEST 147
+ORIGINAL_V18_44_SENDBACK /root/elab1/hysteresis/q550_kick203_directional_hessian_transported_jet_v18_44_sendback.zip
