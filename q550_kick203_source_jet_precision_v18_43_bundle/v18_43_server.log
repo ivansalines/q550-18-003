@@ -1,0 +1,43 @@
+test_chart_derivative_including_frame (test_source_jet_v18_43.SourceJetTests.test_chart_derivative_including_frame) ... ok
+test_curvature_uses_first_derivative_norm (test_source_jet_v18_43.SourceJetTests.test_curvature_uses_first_derivative_norm) ... ok
+test_directional_step_zero_linear_B (test_source_jet_v18_43.SourceJetTests.test_directional_step_zero_linear_B) ... ok
+test_first_jet_not_an_exact_second_jet (test_source_jet_v18_43.SourceJetTests.test_first_jet_not_an_exact_second_jet) ... ok
+test_first_jet_polynomial_chain (test_source_jet_v18_43.SourceJetTests.test_first_jet_polynomial_chain) ... ok
+test_five_point_first_linear (test_source_jet_v18_43.SourceJetTests.test_five_point_first_linear) ... ok
+test_five_point_second_quadratic (test_source_jet_v18_43.SourceJetTests.test_five_point_second_quadratic) ... ok
+test_phase_derivative (test_source_jet_v18_43.SourceJetTests.test_phase_derivative) ... ok
+test_tangent_jet_identity (test_source_jet_v18_43.SourceJetTests.test_tangent_jet_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.028s
+
+OK
+{
+  "version": "v18.43",
+  "status": "PREFLIGHT_ONLY_PARENT_AUTHENTICATED",
+  "parent_sha256": "f3445d93539f5c77750aa5424a139061a3e9c27cecb2a8e2e3582f3f5f953ce6",
+  "verified_original_parent_members": 149,
+  "original_parent_cases": 12,
+  "original_parent_profiles": 1548,
+  "historical_checkpoint_tiers": [
+    "standard",
+    "tight"
+  ],
+  "no_new_original_integrations": true
+}
+V18_43 phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=0 T 5.588e-07 max replay 1.220e-13 median second-jet mismatch 0.968
+V18_43 phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=1 T 4.869e-07 max replay 7.864e-14 median second-jet mismatch 1.02
+V18_43 phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=0 T 1.228e-06 max replay 1.365e-13 median second-jet mismatch 0.902
+V18_43 phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=1 T 4.440e-07 max replay 1.868e-13 median second-jet mismatch 1.02
+V18_43 phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=0 T 4.472e-07 max replay 5.543e-14 median second-jet mismatch 1.02
+V18_43 phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=1 T 4.568e-07 max replay 3.769e-13 median second-jet mismatch 1.06
+V18_43 phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=0 T 9.339e-07 max replay 8.298e-14 median second-jet mismatch 1.05
+V18_43 phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=1 T 5.021e-07 max replay 1.492e-13 median second-jet mismatch 1.08
+V18_43 phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=0 T 1.095e-06 max replay 8.043e-14 median second-jet mismatch 0.962
+V18_43 phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=1 T 4.513e-07 max replay 3.163e-13 median second-jet mismatch 1.09
+V18_43 phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=0 T 5.326e-07 max replay 8.221e-14 median second-jet mismatch 0.986
+V18_43 phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=1 T 5.391e-07 max replay 2.447e-13 median second-jet mismatch 0.849
+ORIGINAL_V18_43_COMPLETE 49 60 144
+V18_43_ORIGINAL_PLOTS_COMPLETED
+V18_42_MANIFEST 147
+ORIGINAL_V18_43_SENDBACK /root/elab1/hysteresis/q550_kick203_source_jet_precision_v18_43_sendback.zip

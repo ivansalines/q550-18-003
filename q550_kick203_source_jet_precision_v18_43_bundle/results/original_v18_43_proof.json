@@ -1,0 +1,46 @@
+{
+  "version": "v18.43",
+  "status": "ORIGINAL_Q550_SOURCE_JET_PRECISION_AUDIT_COMPLETED",
+  "original_integrations": 49,
+  "original_cases": 12,
+  "first_jet_rows": 60,
+  "second_window_rows": 144,
+  "directional_step_rows": 120,
+  "solver_step_rows": 48,
+  "parent_v18_42_sha256": "f3445d93539f5c77750aa5424a139061a3e9c27cecb2a8e2e3582f3f5f953ce6",
+  "parent_v18_42_verified_members": 149,
+  "max_parent_vector_replay_abs": 3.7686305005828247e-13,
+  "max_within_support_radius_fraction": 0.5412570424522254,
+  "source_kappa0_unchanged": true,
+  "original_ode_sha256_verified": true,
+  "no_certified_analytic_second_jet": true,
+  "no_certified_curvature": true,
+  "no_material_metric_certified": true,
+  "no_physical_constraint_certified": true,
+  "method": {
+    "first_jet": "Exact chain rule for candidate C, material source and projection; five-point directional Jacobian derivative and finite geometric chart derivative",
+    "second_jet": "Single five-point derivative of semi-analytic first jet, independently compared to two derivatives of original source samples",
+    "old_v18_42_bug": "Curvature stencil in v18.42 had dd5@dd5 instead of d5@d5. Recomputed independently here; original remains intact",
+    "time_parameter": "s=delta_xi/T_common",
+    "temporal_windows": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "sampled_amplitudes": [
+      -0.3333333333333333,
+      0,
+      0.3333333333333333
+    ],
+    "directional_scaled_steps": [
+      0.002,
+      0.0005,
+      0.000125
+    ],
+    "phase": "Record phase variable and increment, not physical winding or material memory",
+    "stiffness": "Adaptive DOP853 accepted steps and function evaluations, not a stiffness proof or physical eigenvalue",
+    "warning": "No Q550 Hessian source code used, no exact second variation claimed; resolved only if stencil and step converge"
+  },
+  "status_preflight_only": false
+}
