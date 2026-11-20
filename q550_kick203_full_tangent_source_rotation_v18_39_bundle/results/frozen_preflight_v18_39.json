@@ -1,0 +1,12 @@
+{
+  "version": "v18.39",
+  "status": "PREFLIGHT_ONLY_V18_38_ORIGINAL_AUTHENTICATED",
+  "parent_sha256": "9d2814cca1fac641bbe176cf472636605c678919ffccf8bf713b7bbab14df097",
+  "verified_members": 108,
+  "original_v18_38_cases": 12,
+  "old_profiles": 120,
+  "old_fits": 96,
+  "previous_exit_observed": 56,
+  "previous_right_censored": 4,
+  "no_new_original_integrations": true
+}

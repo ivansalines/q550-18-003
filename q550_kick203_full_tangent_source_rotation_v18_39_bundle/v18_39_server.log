@@ -1,0 +1,50 @@
+test_antiparallel_fails_closed (test_tangent_source_v18_39.FullSourceTests.test_antiparallel_fails_closed) ... ok
+test_centered_coherence_perfect (test_tangent_source_v18_39.FullSourceTests.test_centered_coherence_perfect) ... ok
+test_centered_coherence_undefined (test_tangent_source_v18_39.FullSourceTests.test_centered_coherence_undefined) ... ok
+test_common_source_captures_whole_tangent (test_tangent_source_v18_39.FullSourceTests.test_common_source_captures_whole_tangent) ... ok
+test_curved_holdout_failure (test_tangent_source_v18_39.FullSourceTests.test_curved_holdout_failure) ... ok
+test_linear_holdout_vector (test_tangent_source_v18_39.FullSourceTests.test_linear_holdout_vector) ... ok
+test_minimal_rotation_is_orthogonal (test_tangent_source_v18_39.FullSourceTests.test_minimal_rotation_is_orthogonal) ... ok
+test_missing_symmetric_pair (test_tangent_source_v18_39.FullSourceTests.test_missing_symmetric_pair) ... ok
+test_nearly_axis_householder (test_tangent_source_v18_39.FullSourceTests.test_nearly_axis_householder) ... ok
+test_orthonormal_nine_plane (test_tangent_source_v18_39.FullSourceTests.test_orthonormal_nine_plane) ... ok
+test_parallel_tilt_has_sign (test_tangent_source_v18_39.FullSourceTests.test_parallel_tilt_has_sign) ... ok
+test_projection_can_flip_without_full_reversal (test_tangent_source_v18_39.FullSourceTests.test_projection_can_flip_without_full_reversal) ... ok
+test_rotation_angle (test_tangent_source_v18_39.FullSourceTests.test_rotation_angle) ... ok
+test_rotation_angle_antiparallel (test_tangent_source_v18_39.FullSourceTests.test_rotation_angle_antiparallel) ... ok
+test_rotation_identical (test_tangent_source_v18_39.FullSourceTests.test_rotation_identical) ... ok
+test_tiny_angle_stable (test_tangent_source_v18_39.FullSourceTests.test_tiny_angle_stable) ... ok
+test_zero_tilt (test_tangent_source_v18_39.FullSourceTests.test_zero_tilt) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.010s
+
+OK
+{
+  "version": "v18.39",
+  "status": "PREFLIGHT_ONLY_V18_38_ORIGINAL_AUTHENTICATED",
+  "parent_sha256": "9d2814cca1fac641bbe176cf472636605c678919ffccf8bf713b7bbab14df097",
+  "verified_members": 108,
+  "original_v18_38_cases": 12,
+  "old_profiles": 120,
+  "old_fits": 96,
+  "previous_exit_observed": 56,
+  "previous_right_censored": 4,
+  "no_new_original_integrations": true
+}
+V18_39 phasecov_d2_lam-1.00_mod+0.00 3.5 0 observed_exits 5 right_censored 0 horizon_min 1.118e-06 common_t 5.588e-07
+V18_39 phasecov_d2_lam-1.00_mod+0.00 3.5 1 observed_exits 4 right_censored 1 horizon_min 9.738e-07 common_t 4.869e-07
+V18_39 phasecov_d2_lam-1.00_mod+0.00 4.0 0 observed_exits 5 right_censored 0 horizon_min 2.455e-06 common_t 1.228e-06
+V18_39 phasecov_d2_lam-1.00_mod+0.00 4.0 1 observed_exits 4 right_censored 1 horizon_min 8.879e-07 common_t 4.44e-07
+V18_39 phasecov_d2_lam-1.00_mod+0.00 4.5 0 observed_exits 5 right_censored 0 horizon_min 8.943e-07 common_t 4.472e-07
+V18_39 phasecov_d2_lam-1.00_mod+0.00 4.5 1 observed_exits 5 right_censored 0 horizon_min 9.136e-07 common_t 4.568e-07
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 3.5 0 observed_exits 5 right_censored 0 horizon_min 1.868e-06 common_t 9.339e-07
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 3.5 1 observed_exits 5 right_censored 0 horizon_min 1.004e-06 common_t 5.021e-07
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 4.0 0 observed_exits 5 right_censored 0 horizon_min 2.19e-06 common_t 1.095e-06
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 4.0 1 observed_exits 4 right_censored 1 horizon_min 9.027e-07 common_t 4.513e-07
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 4.5 0 observed_exits 5 right_censored 0 horizon_min 1.065e-06 common_t 5.326e-07
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 4.5 1 observed_exits 4 right_censored 1 horizon_min 1.078e-06 common_t 5.391e-07
+ORIGINAL_V18_39_COMPLETED 61 120 48
+ORIGINAL_V18_39_PLOTS_COMPLETED
+V18_38_MANIFEST 115
+SEND_BACK /root/elab1/hysteresis/q550_kick203_full_tangent_source_rotation_v18_39_sendback.zip
