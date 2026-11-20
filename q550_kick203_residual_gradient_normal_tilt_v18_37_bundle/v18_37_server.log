@@ -1,0 +1,43 @@
+test_finite_difference_step_refinement (test_residual_gradient_v18_37.ResidualGradient.test_finite_difference_step_refinement) ... ok
+test_grad_of_candidate_direct_difference (test_residual_gradient_v18_37.ResidualGradient.test_grad_of_candidate_direct_difference) ... ok
+test_gradient_source_matches_independent_field_difference (test_residual_gradient_v18_37.ResidualGradient.test_gradient_source_matches_independent_field_difference) ... ok
+test_level_source_identity_local (test_residual_gradient_v18_37.ResidualGradient.test_level_source_identity_local) ... ok
+test_parallel_and_transverse_both_exist (test_residual_gradient_v18_37.ResidualGradient.test_parallel_and_transverse_both_exist) ... ok
+test_parallel_perp_recombine (test_residual_gradient_v18_37.ResidualGradient.test_parallel_perp_recombine) ... ok
+test_sign_gauge_invariance (test_residual_gradient_v18_37.ResidualGradient.test_sign_gauge_invariance) ... ok
+test_small_angle_does_not_quantize_to_zero (test_residual_gradient_v18_37.ResidualGradient.test_small_angle_does_not_quantize_to_zero) ... ok
+test_source_forcing_identity_local (test_residual_gradient_v18_37.ResidualGradient.test_source_forcing_identity_local) ... ok
+test_unoriented_pi_sign (test_residual_gradient_v18_37.ResidualGradient.test_unoriented_pi_sign) ... ok
+test_zero_source_identity (test_residual_gradient_v18_37.ResidualGradient.test_zero_source_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.022s
+
+OK
+{
+  "version": "v18.37",
+  "status": "PREFLIGHT_ONLY_ORIGINAL_V18_36_AUTHENTICATED",
+  "parent_sha256": "14ba9c5b91cccf364f07c90e52853c8af03463982744ab253113b0d280bb481a",
+  "verified_members": 99,
+  "original_parent_cases": 12,
+  "original_parent_samples": 1740,
+  "parent_all_seeds_admissible": true,
+  "no_new_q550_original_run": true,
+  "physical_material_constraint_not_certified": true
+}
+V18_37 phasecov_d2_lam-1.00_mod+0.00 xi 3.5 branch 0 exit 1.234e-06 tilt_deg 3.2993e-07 grad_budget 1.05e-12 level_budget 5.56e-14
+V18_37 phasecov_d2_lam-1.00_mod+0.00 xi 3.5 branch 1 exit 1.649e-06 tilt_deg 3.722e-06 grad_budget 1.02e-12 level_budget 5.51e-14
+V18_37 phasecov_d2_lam-1.00_mod+0.00 xi 4.0 branch 0 exit 3.308e-06 tilt_deg 1.0649e-06 grad_budget 8.24e-13 level_budget 6.69e-14
+V18_37 phasecov_d2_lam-1.00_mod+0.00 xi 4.0 branch 1 exit 1.32e-06 tilt_deg 4.4888e-06 grad_budget 7.64e-13 level_budget 4.49e-14
+V18_37 phasecov_d2_lam-1.00_mod+0.00 xi 4.5 branch 0 exit 9e-07 tilt_deg 1.8155e-07 grad_budget 4.58e-13 level_budget 1.21e-13
+V18_37 phasecov_d2_lam-1.00_mod+0.00 xi 4.5 branch 1 exit 9.136e-07 tilt_deg 1.7416e-07 grad_budget 3.2e-13 level_budget 4.89e-13
+V18_37 phaseblind_d2_lam-1.00_mod+0.00 xi 3.5 branch 0 exit 2.408e-06 tilt_deg 1.0223e-06 grad_budget 9.2e-15 level_budget 6.61e-14
+V18_37 phaseblind_d2_lam-1.00_mod+0.00 xi 3.5 branch 1 exit 1.027e-06 tilt_deg 1.9311e-07 grad_budget 1.08e-14 level_budget 5.4e-14
+V18_37 phaseblind_d2_lam-1.00_mod+0.00 xi 4.0 branch 0 exit 2.826e-06 tilt_deg 3.4261e-07 grad_budget 8.47e-15 level_budget 7.02e-14
+V18_37 phaseblind_d2_lam-1.00_mod+0.00 xi 4.0 branch 1 exit 4.445e-06 tilt_deg 1.2057e-06 grad_budget 5.95e-15 level_budget 6.4e-14
+V18_37 phaseblind_d2_lam-1.00_mod+0.00 xi 4.5 branch 0 exit 1.145e-06 tilt_deg 1.32e-06 grad_budget 7.45e-15 level_budget 5.29e-14
+V18_37 phaseblind_d2_lam-1.00_mod+0.00 xi 4.5 branch 1 exit 2.967e-06 tilt_deg 1.8682e-06 grad_budget 7.73e-15 level_budget 6.33e-14
+ORIGINAL_V18_37_COMPLETED 13 12 1920
+V18_37_PLOTS_COMPLETE
+V18_37_SHA256_ENTRIES 97
+SEND_BACK /root/elab1/hysteresis/q550_kick203_residual_gradient_normal_tilt_v18_37_sendback.zip

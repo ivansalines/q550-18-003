@@ -1,0 +1,29 @@
+{
+  "version": "v18.37",
+  "status": "ORIGINAL_Q550_RESIDUAL_GRADIENT_NORMAL_TILT_MOVING_LEVEL_COMPLETED",
+  "original_ode_sha256_verified": true,
+  "parent_sha256": "14ba9c5b91cccf364f07c90e52853c8af03463982744ab253113b0d280bb481a",
+  "parent_verified_members": 99,
+  "original_integrations": 13,
+  "original_cases": 12,
+  "time_samples": 1920,
+  "max_seed_replay_abs_error": 0.0,
+  "max_material_phase_jacobian": 0.0,
+  "max_absolute_vector_gradient_budget_error": 1.0548340415995325e-12,
+  "max_absolute_scalar_level_budget_error": 4.892779264236026e-13,
+  "rhs_only_gradient_crosschecks": 48,
+  "all_seeds_jointly_admissible": true,
+  "no_physical_material_constraint_certified": true,
+  "no_material_metric_certified": true,
+  "method": {
+    "t_window": 1e-05,
+    "rtol": 3e-12,
+    "atol": 3e-13,
+    "max_step": 2.5e-07,
+    "residual_gradient": "analytic gradient of Lie_C-mu*C using original model Jacobian, quadratic candidate Hessian and phase derivative",
+    "independent_check": "five-point scalar residual differentiating original RHS, 2 step sizes",
+    "cotangent_source_identity": "g(t)=exp(mu*t)*m(t)+e(t); m_dot=-B.T*m; e_dot=(-B.T+mu*I)e+grad(r)",
+    "scalar_level_identity": "C(t)=exp(mu*t)*(C(0)+int(exp(-mu*s)*r(s)ds))",
+    "angular_diagnostic": "projective atan2 in explicitly normalized material coordinates"
+  }
+}

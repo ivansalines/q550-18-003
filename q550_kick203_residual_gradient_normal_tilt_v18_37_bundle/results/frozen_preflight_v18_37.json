@@ -1,0 +1,11 @@
+{
+  "version": "v18.37",
+  "status": "PREFLIGHT_ONLY_ORIGINAL_V18_36_AUTHENTICATED",
+  "parent_sha256": "14ba9c5b91cccf364f07c90e52853c8af03463982744ab253113b0d280bb481a",
+  "verified_members": 99,
+  "original_parent_cases": 12,
+  "original_parent_samples": 1740,
+  "parent_all_seeds_admissible": true,
+  "no_new_q550_original_run": true,
+  "physical_material_constraint_not_certified": true
+}
