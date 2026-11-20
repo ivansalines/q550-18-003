@@ -1,0 +1,52 @@
+test_backtracking_path (test_gauge_temporal_v18_40.MathGaugeTests.test_backtracking_path) ... ok
+test_bridge_normal (test_gauge_temporal_v18_40.MathGaugeTests.test_bridge_normal) ... ok
+test_chart_coordinate_reconstruction (test_gauge_temporal_v18_40.MathGaugeTests.test_chart_coordinate_reconstruction) ... ok
+test_degenerate_rejected (test_gauge_temporal_v18_40.MathGaugeTests.test_degenerate_rejected) ... ok
+test_direct_orthonormal (test_gauge_temporal_v18_40.MathGaugeTests.test_direct_orthonormal) ... ok
+test_direct_transport_normal (test_gauge_temporal_v18_40.MathGaugeTests.test_direct_transport_normal) ... ok
+test_flip_angle (test_gauge_temporal_v18_40.MathGaugeTests.test_flip_angle) ... ok
+test_frame_coordinate_invariance_with_moving_twist (test_gauge_temporal_v18_40.MathGaugeTests.test_frame_coordinate_invariance_with_moving_twist) ... ok
+test_incremental_normal (test_gauge_temporal_v18_40.MathGaugeTests.test_incremental_normal) ... ok
+test_incremental_preserves_norm (test_gauge_temporal_v18_40.MathGaugeTests.test_incremental_preserves_norm) ... ok
+test_odd_response (test_gauge_temporal_v18_40.MathGaugeTests.test_odd_response) ... ok
+test_orthogonal_angle (test_gauge_temporal_v18_40.MathGaugeTests.test_orthogonal_angle) ... ok
+test_projection_false_flip (test_gauge_temporal_v18_40.MathGaugeTests.test_projection_false_flip) ... ok
+test_small_turn_atan2 (test_gauge_temporal_v18_40.MathGaugeTests.test_small_turn_atan2) ... ok
+test_time_arc_resolution (test_gauge_temporal_v18_40.MathGaugeTests.test_time_arc_resolution) ... ok
+test_travel_sampling_nonnegative (test_gauge_temporal_v18_40.MathGaugeTests.test_travel_sampling_nonnegative) ... ok
+test_twist_orthogonal (test_gauge_temporal_v18_40.MathGaugeTests.test_twist_orthogonal) ... ok
+test_twisted_chart_reconstruction (test_gauge_temporal_v18_40.MathGaugeTests.test_twisted_chart_reconstruction) ... ok
+test_synthetic_time_scan_and_gauge_closure (test_gauge_temporal_v18_40.TemporalReplaySmoke.test_synthetic_time_scan_and_gauge_closure) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.087s
+
+OK
+{
+  "version": "v18.40",
+  "status": "PREFLIGHT_ONLY_V18_39_PARENT_AUTHENTICATED",
+  "parent_sha256": "8aa8da925abf692cb4d1b7e630872557c13970d75bea733b674ba46055b620f1",
+  "parent_verified_members": 115,
+  "parent_original_cases": 12,
+  "parent_original_integrations": 61,
+  "parent_frames": 12,
+  "parent_vectors": 120,
+  "source_kappa0_unchanged": true,
+  "no_new_original_integrations": true
+}
+V18_39 phasecov_d2_lam-1.00_mod+0.00 3.5 0 observed_exits 5 right_censored 0 horizon_min 1.118e-06 common_t 5.588e-07
+V18_39 phasecov_d2_lam-1.00_mod+0.00 3.5 1 observed_exits 4 right_censored 1 horizon_min 9.738e-07 common_t 4.869e-07
+V18_39 phasecov_d2_lam-1.00_mod+0.00 4.0 0 observed_exits 5 right_censored 0 horizon_min 2.455e-06 common_t 1.228e-06
+V18_39 phasecov_d2_lam-1.00_mod+0.00 4.0 1 observed_exits 4 right_censored 1 horizon_min 8.879e-07 common_t 4.44e-07
+V18_39 phasecov_d2_lam-1.00_mod+0.00 4.5 0 observed_exits 5 right_censored 0 horizon_min 8.943e-07 common_t 4.472e-07
+V18_39 phasecov_d2_lam-1.00_mod+0.00 4.5 1 observed_exits 5 right_censored 0 horizon_min 9.136e-07 common_t 4.568e-07
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 3.5 0 observed_exits 5 right_censored 0 horizon_min 1.868e-06 common_t 9.339e-07
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 3.5 1 observed_exits 5 right_censored 0 horizon_min 1.004e-06 common_t 5.021e-07
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 4.0 0 observed_exits 5 right_censored 0 horizon_min 2.19e-06 common_t 1.095e-06
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 4.0 1 observed_exits 4 right_censored 1 horizon_min 9.027e-07 common_t 4.513e-07
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 4.5 0 observed_exits 5 right_censored 0 horizon_min 1.065e-06 common_t 5.326e-07
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 4.5 1 observed_exits 4 right_censored 1 horizon_min 1.078e-06 common_t 5.391e-07
+ORIGINAL_V18_40_COMPLETED 61 168 168
+V18_40_ORIGINAL_PLOTS_COMPLETE
+V18_40_MANIFEST 121
+SEND_BACK /root/elab1/hysteresis/q550_kick203_gauge_robust_temporal_v18_40_sendback.zip

@@ -1,0 +1,12 @@
+{
+  "version": "v18.40",
+  "status": "PREFLIGHT_ONLY_V18_39_PARENT_AUTHENTICATED",
+  "parent_sha256": "8aa8da925abf692cb4d1b7e630872557c13970d75bea733b674ba46055b620f1",
+  "parent_verified_members": 115,
+  "parent_original_cases": 12,
+  "parent_original_integrations": 61,
+  "parent_frames": 12,
+  "parent_vectors": 120,
+  "source_kappa0_unchanged": true,
+  "no_new_original_integrations": true
+}
