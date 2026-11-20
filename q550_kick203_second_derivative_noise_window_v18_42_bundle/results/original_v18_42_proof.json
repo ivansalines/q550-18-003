@@ -1,0 +1,37 @@
+{
+  "version": "v18.42",
+  "status": "ORIGINAL_Q550_SECOND_DERIVATIVE_NOISE_WINDOW_SCALING_COMPLETED",
+  "original_integrations": 73,
+  "baseline_original_integrations": 61,
+  "tolerance_original_integrations": 12,
+  "original_cases": 12,
+  "vector_temporal_samples": 1548,
+  "window_rows": 48,
+  "second_derivative_rows": 144,
+  "tolerance_comparison_rows": 16,
+  "original_ode_sha256_verified": true,
+  "source_kappa0_unchanged": true,
+  "parent_original_v18_41_sha256": "d530d52c84ea070f55211d9885d3b7eeb91d78a0cfdb720db9940ab2a2c6ae87",
+  "parent_original_v18_41_verified_members": 137,
+  "max_parent_endpoint_angle_replay_deg": 0.0,
+  "max_parent_chord_replay": 3.308722450212111e-24,
+  "max_parent_plane_replay": 0.0,
+  "no_analytic_second_variation_claim": true,
+  "no_certified_curvature": true,
+  "no_material_metric_certified": true,
+  "no_physical_constraint_certified": true,
+  "method": {
+    "time_window_fractions": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "window_nested_uniform_sampling": "129 samples, 4 nested windows, all inside common support",
+    "derivative_stencils": "central three/five and degree-4 seven-point least squares, scale s=t/t_common",
+    "first_derivative_cross_check": "Euler directional ORIGINAL RHS first derivative vs dense-solution first derivative (NOT analytic second derivative)",
+    "solver_ladder": "baseline 3e-12/3e-13 vs x10 coarser and x10 tighter, two predeclared phaseblind branch-0 families, 3 amplitudes each",
+    "noise_floor": "empirical solver differences and stencil disagreement; NOT rigorous bounds",
+    "caution": "Curvature of the odd residual-gradient diagnostic in declared normalized Euclidean gauge, no intrinsic torsion or material constraint"
+  }
+}

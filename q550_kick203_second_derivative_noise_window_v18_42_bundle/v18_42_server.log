@@ -1,0 +1,64 @@
+test_affine_chord_is_zero (test_noise_window_v18_42.WindowNoiseTests.test_affine_chord_is_zero) ... ok
+test_affine_normal_accel_zero (test_noise_window_v18_42.WindowNoiseTests.test_affine_normal_accel_zero) ... ok
+test_bad_array (test_noise_window_v18_42.WindowNoiseTests.test_bad_array) ... ok
+test_bad_window (test_noise_window_v18_42.WindowNoiseTests.test_bad_window) ... ok
+test_convergence_ratio (test_noise_window_v18_42.WindowNoiseTests.test_convergence_ratio) ... ok
+test_epsilon_noise_amplifies (test_noise_window_v18_42.WindowNoiseTests.test_epsilon_noise_amplifies) ... ok
+test_invalid_window_grid (test_noise_window_v18_42.WindowNoiseTests.test_invalid_window_grid) ... ok
+test_nonzero_offplane (test_noise_window_v18_42.WindowNoiseTests.test_nonzero_offplane) ... ok
+test_quadratic_second_derivatives (test_noise_window_v18_42.WindowNoiseTests.test_quadratic_second_derivatives) ... ok
+test_quadratic_window_chord_scales_two (test_noise_window_v18_42.WindowNoiseTests.test_quadratic_window_chord_scales_two) ... ok
+test_quartic_five_point_exact (test_noise_window_v18_42.WindowNoiseTests.test_quartic_five_point_exact) ... ok
+test_slope_linear (test_noise_window_v18_42.WindowNoiseTests.test_slope_linear) ... ok
+test_step_positive (test_noise_window_v18_42.WindowNoiseTests.test_step_positive) ... ok
+test_three_point_quartic_differs (test_noise_window_v18_42.WindowNoiseTests.test_three_point_quartic_differs) ... ok
+test_underresolved_slope (test_noise_window_v18_42.WindowNoiseTests.test_underresolved_slope) ... ok
+test_windows_lengths (test_noise_window_v18_42.WindowNoiseTests.test_windows_lengths) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.046s
+
+OK
+{
+  "version": "v18.42",
+  "status": "PREFLIGHT_ONLY_V18_41_PARENT_AUTHENTICATED",
+  "parent_sha256": "d530d52c84ea070f55211d9885d3b7eeb91d78a0cfdb720db9940ab2a2c6ae87",
+  "verified_members": 137,
+  "original_parent_integrations": 61,
+  "parent_families": 12,
+  "parent_profiles": 1548,
+  "parent_resolution_rows": 48,
+  "checkpoint_tiers": [
+    "standard",
+    "tight"
+  ],
+  "no_new_original_integrations": true
+}
+V18_42 phasecov_d2_lam-1.00_mod+0.00 3.5 0 chord_slope 1.589 focus_ladder False
+V18_39 phasecov_d2_lam-1.00_mod+0.00 3.5 0 observed_exits 5 right_censored 0 horizon_min 1.118e-06 common_t 5.588e-07
+V18_42 phasecov_d2_lam-1.00_mod+0.00 3.5 1 chord_slope 1.846 focus_ladder False
+V18_39 phasecov_d2_lam-1.00_mod+0.00 3.5 1 observed_exits 4 right_censored 1 horizon_min 9.738e-07 common_t 4.869e-07
+V18_42 phasecov_d2_lam-1.00_mod+0.00 4.0 0 chord_slope 1.873 focus_ladder False
+V18_39 phasecov_d2_lam-1.00_mod+0.00 4.0 0 observed_exits 5 right_censored 0 horizon_min 2.455e-06 common_t 1.228e-06
+V18_42 phasecov_d2_lam-1.00_mod+0.00 4.0 1 chord_slope 1.445 focus_ladder False
+V18_39 phasecov_d2_lam-1.00_mod+0.00 4.0 1 observed_exits 4 right_censored 1 horizon_min 8.879e-07 common_t 4.44e-07
+V18_42 phasecov_d2_lam-1.00_mod+0.00 4.5 0 chord_slope 1.425 focus_ladder False
+V18_39 phasecov_d2_lam-1.00_mod+0.00 4.5 0 observed_exits 5 right_censored 0 horizon_min 8.943e-07 common_t 4.472e-07
+V18_42 phasecov_d2_lam-1.00_mod+0.00 4.5 1 chord_slope 1.916 focus_ladder False
+V18_39 phasecov_d2_lam-1.00_mod+0.00 4.5 1 observed_exits 5 right_censored 0 horizon_min 9.136e-07 common_t 4.568e-07
+V18_42 phaseblind_d2_lam-1.00_mod+0.00 3.5 0 chord_slope 1.875 focus_ladder True
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 3.5 0 observed_exits 5 right_censored 0 horizon_min 1.868e-06 common_t 9.339e-07
+V18_42 phaseblind_d2_lam-1.00_mod+0.00 3.5 1 chord_slope 0.548 focus_ladder False
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 3.5 1 observed_exits 5 right_censored 0 horizon_min 1.004e-06 common_t 5.021e-07
+V18_42 phaseblind_d2_lam-1.00_mod+0.00 4.0 0 chord_slope 1.359 focus_ladder True
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 4.0 0 observed_exits 5 right_censored 0 horizon_min 2.19e-06 common_t 1.095e-06
+V18_42 phaseblind_d2_lam-1.00_mod+0.00 4.0 1 chord_slope 1.89 focus_ladder False
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 4.0 1 observed_exits 4 right_censored 1 horizon_min 9.027e-07 common_t 4.513e-07
+V18_42 phaseblind_d2_lam-1.00_mod+0.00 4.5 0 chord_slope 1.487 focus_ladder False
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 4.5 0 observed_exits 5 right_censored 0 horizon_min 1.065e-06 common_t 5.326e-07
+V18_42 phaseblind_d2_lam-1.00_mod+0.00 4.5 1 chord_slope 1.829 focus_ladder False
+V18_39 phaseblind_d2_lam-1.00_mod+0.00 4.5 1 observed_exits 4 right_censored 1 horizon_min 1.078e-06 common_t 5.391e-07
+ORIGINAL_V18_42_COMPLETED 73 1548 48
+PLOTS_V18_42 2
+V18_42_MANIFEST 149
+SEND_BACK /root/elab1/hysteresis/q550_kick203_second_derivative_noise_window_v18_42_sendback.zip
