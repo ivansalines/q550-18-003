@@ -1,0 +1,42 @@
+test_curvature_failure_is_visible (test_coupled_v18_38.CoupledTests.test_curvature_failure_is_visible) ... ok
+test_linear_response_holdout (test_coupled_v18_38.CoupledTests.test_linear_response_holdout) ... ok
+test_missing_symmetry_rejected (test_coupled_v18_38.CoupledTests.test_missing_symmetry_rejected) ... ok
+test_nonzero_correlation (test_coupled_v18_38.CoupledTests.test_nonzero_correlation) ... ok
+test_parallel_probe_rejected (test_coupled_v18_38.CoupledTests.test_parallel_probe_rejected) ... ok
+test_signed_sources (test_coupled_v18_38.CoupledTests.test_signed_sources) ... ok
+test_signed_tilt_anti_parallel_gauge (test_coupled_v18_38.CoupledTests.test_signed_tilt_anti_parallel_gauge) ... ok
+test_signed_tilt_small (test_coupled_v18_38.CoupledTests.test_signed_tilt_small) ... ok
+test_source_scale_positive (test_coupled_v18_38.CoupledTests.test_source_scale_positive) ... ok
+test_tangent_orthogonal (test_coupled_v18_38.CoupledTests.test_tangent_orthogonal) ... ok
+test_tangent_unit (test_coupled_v18_38.CoupledTests.test_tangent_unit) ... ok
+test_zero_var_correlation (test_coupled_v18_38.CoupledTests.test_zero_var_correlation) ... ok
+test_bad_flag_is_rejected (test_seed_genealogy_v18_38.RealSchemaRegression.test_bad_flag_is_rejected) ... ok
+test_corrupt_attempt_trace_is_rejected (test_seed_genealogy_v18_38.RealSchemaRegression.test_corrupt_attempt_trace_is_rejected) ... ok
+test_duplicate_attempts_are_rejected (test_seed_genealogy_v18_38.RealSchemaRegression.test_duplicate_attempts_are_rejected) ... ok
+test_missing_original_case_is_rejected (test_seed_genealogy_v18_38.RealSchemaRegression.test_missing_original_case_is_rejected) ... ok
+test_nonconsecutive_attempts_are_rejected (test_seed_genealogy_v18_38.RealSchemaRegression.test_nonconsecutive_attempts_are_rejected) ... ok
+test_v18_37_summary_does_not_need_attempt_count (test_seed_genealogy_v18_38.RealSchemaRegression.test_v18_37_summary_does_not_need_attempt_count) ... ok
+test_wrong_regeneration_count_is_rejected (test_seed_genealogy_v18_38.RealSchemaRegression.test_wrong_regeneration_count_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.004s
+
+OK
+{
+  "version": "v18.38",
+  "status": "PREFLIGHT_ONLY_V18_37_PARENT_AUTHENTICATED",
+  "parent_sha256": "a5239c081e34ebc7dbff8bc80ac3a70abfb2146b594fe215b72fd8162d5ad4f4",
+  "verified_members": 97,
+  "parent_cases": 12,
+  "parent_profiles": 1920,
+  "no_new_original_integrations": true
+}
+V18_38 phasecov_d2_lam-1.00_mod+0.00 3.5 0 exit_min 1.118e-06 common_t 5.588e-07
+Traceback (most recent call last):
+  File "/root/elab1/hysteresis/q550_kick203_coupled_level_normal_scaling_v18_38_bundle/scripts/original_coupled_scaling_v18_38.py", line 174, in <module>
+    run(ap.parse_args())
+    ~~~^^^^^^^^^^^^^^^^^
+  File "/root/elab1/hysteresis/q550_kick203_coupled_level_normal_scaling_v18_38_bundle/scripts/original_coupled_scaling_v18_38.py", line 115, in run
+    if status!='CROSSED_AFTER_START' or exitt is None:raise RuntimeError('Original seed never crossed diagnostic radius')
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Original seed never crossed diagnostic radius

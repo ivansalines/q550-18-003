@@ -1,0 +1,9 @@
+{
+  "version": "v18.38",
+  "status": "PREFLIGHT_ONLY_V18_37_PARENT_AUTHENTICATED",
+  "parent_sha256": "a5239c081e34ebc7dbff8bc80ac3a70abfb2146b594fe215b72fd8162d5ad4f4",
+  "verified_members": 97,
+  "parent_cases": 12,
+  "parent_profiles": 1920,
+  "no_new_original_integrations": true
+}

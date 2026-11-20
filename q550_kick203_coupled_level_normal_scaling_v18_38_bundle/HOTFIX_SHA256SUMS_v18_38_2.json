@@ -1,0 +1,11 @@
+{
+  "version": "v18.38.2",
+  "algorithm": "SHA256",
+  "based_on": "v18.38.1",
+  "files": {
+    "scripts/original_coupled_scaling_v18_38.py": "1974c1c21cf87ca31d016b470209e6c23e6333dd1bf7899cf17d032f126e2c5f",
+    "scripts/support_censor_v18_38.py": "a990f36dd565f0de0d39a3fccad475549f23b04df1026f1b2b4b2720756ed107",
+    "tests/test_support_censor_v18_38.py": "724af0522e40cda5438345d210940fb8419e884c7a504152b1d5b09a8bb2b123",
+    "HOTFIX_v18_38_2.md": "59e44a82bb775eac5f5708b7a6ed59538e4299a8081e444289ea2689bb0e0e32"
+  }
+}

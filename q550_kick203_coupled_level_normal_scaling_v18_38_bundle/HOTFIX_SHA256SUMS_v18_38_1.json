@@ -1,0 +1,11 @@
+{
+  "version": "v18.38.1",
+  "algorithm": "SHA256",
+  "files": {
+    "scripts/original_coupled_scaling_v18_38.py": "4d59de9fec64fedd94661ce999977d12a1402ddd29a609364ddb96fb5e76f810",
+    "scripts/seed_genealogy_v18_38.py": "0f7eeb163dc29f16db04ddfb5db7de6697fef69996fd64ed9682d4d5302bad12",
+    "scripts/run_on_server.sh": "ae7666608a744ffb84a6234c276e2ea3116a4429f08e818191d8a2636fafc7fc",
+    "tests/test_seed_genealogy_v18_38.py": "873b6edd8882298cc569a2ec5432868932373d07fa7781c198856ed5c7986493",
+    "HOTFIX_v18_38_1.md": "2bfc72b873c7bf9ea63b6a684e404c2ba7a1f6e4ec508cf54b652b282847f934"
+  }
+}
